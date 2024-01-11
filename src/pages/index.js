@@ -15,8 +15,13 @@ height={3}
 width={400}
 className='my-8'
 src={Logo} />
-<p className='text-[1.120rem] my-1 container'>🎨 Explore the creativity of our talented graphic designers! At Cultural Classicists, we pride ourselves on delivering stunning visuals and innovative designs. Dive into a world of creativity as our designers showcase their skills through three distinct task categories.</p>
+<p className='text-[1.120rem] my-1 container'>🎨 Explore the creativity of our talented graphic designers! At Cultural Classicists, we pride ourselves on delivering stunning visuals and innovative designs. Dive into a world of creativity as our designers showcase their skills through three distinct task categories.
+Here is some designs acording to the categories:</p>
+<br />
+
 <div className="flex flex-wrap md:container mx-auto gap-6 justify-center">
+
+
 <Card />
 
 </div>
