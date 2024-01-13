@@ -79,7 +79,7 @@ export default function Home() {
 
       <div className="flex flex-col text-start justify-start container mb-6">
         <h3 className="font-bold text-2xl">Category 3: Social Media Campaign Challenge</h3>
-        <p className="text-sm">Here our designers designed a banner for a collaborative Campaign with 'the daily star' on the topic of pohela boishash</p>
+        <p className="text-sm">Here our designers designed a banner for a collaborative Campaign with `the daily star` on the topic of pohela boishash</p>
       </div>
       <div className="flex flex-wrap md:container mx-auto gap-6 justify-center">
       {

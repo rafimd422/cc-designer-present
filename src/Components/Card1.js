@@ -14,13 +14,13 @@ const Card1 = ({ social }) => {
           src={authorImg}
           width={100}
           height={100}
-          className="object-cover w-12 h-12 rounded-full shadow dark:dark:bg-gray-500"
+          className="object-cover w-12 h-12 rounded-full shadow bg-gray-500"
         />
         <div className="flex flex-col space-y-1">
           <a rel="noopener noreferrer" href="#" className="text-sm font-semibold">
             {name}
           </a>
-          <span className="text-xs dark:dark:text-gray-400">
+          <span className="text-xs text-gray-400">
             Graphics Designer || Organiser || Cultural Clasistists
           </span>
         </div>
@@ -35,7 +35,7 @@ const Card1 = ({ social }) => {
           onClick={() => setModalIsOpen(true)}
         />
         <h2 className="mb-1 text-xl font-semibold">{title}</h2>
-        <p className="text-sm dark:dark:text-gray-400">{theme}</p>
+        <p className="text-sm text-gray-400">{theme}</p>
       </div>
 
       {/* Modal */}
