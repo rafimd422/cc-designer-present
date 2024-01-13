@@ -7,9 +7,35 @@ import Card3 from "@/Components/Card3";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+
+
+  const ccOffecial = [{
+    name:'MD Mushfiqur Rahman',
+    authorImg:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8qpiVrthJOtOckTNcSG9-MCfchJDe4CKfd06QcjEZuZAONND0',
+    design:'https://pyxis.nymag.com/v1/imgs/654/1f1/08de774c11d89cb3f4ecf600a33e9c8283-24-keanu-reeves.rsquare.w400.jpg',
+    title:'MultiCultural Heritage Hunt Event Poster',
+    theme:'Simple and Clean with the combination of Yellow and Green and Bangladesh`s cultural Colours for background'
+    }]
+
+  const culturalEventChallenge = [{
+    name:'MD Mushfiqur Rahman',
+    authorImg:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8qpiVrthJOtOckTNcSG9-MCfchJDe4CKfd06QcjEZuZAONND0',
+    design:'https://pyxis.nymag.com/v1/imgs/654/1f1/08de774c11d89cb3f4ecf600a33e9c8283-24-keanu-reeves.rsquare.w400.jpg',
+    title:'MultiCultural Heritage Hunt Event Poster',
+    theme:'Simple and Clean with the combination of Yellow and Green and Bangladesh`s cultural Colours for background'
+    }]
+
+  const socialMediaCampaign = [{
+    name:'MD Mushfiqur Rahman',
+    authorImg:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8qpiVrthJOtOckTNcSG9-MCfchJDe4CKfd06QcjEZuZAONND0',
+    design:'https://pyxis.nymag.com/v1/imgs/654/1f1/08de774c11d89cb3f4ecf600a33e9c8283-24-keanu-reeves.rsquare.w400.jpg',
+    title:'MultiCultural Heritage Hunt Event Poster',
+    theme:'Simple and Clean with the combination of Yellow and Green and Bangladesh`s cultural Colours for background'
+    }]
+
   return (
     <main
-      className={`flex min-h-screen flex-col items-center gap-4 py-8 p-2 ${inter.className}`}
+      className={`flex min-h-screen flex-col items-center gap-16 py-8 p-2 ${inter.className}`}
     >
       <Image
         alt="Cultural Classistists"
@@ -27,7 +53,7 @@ export default function Home() {
       </p>
       <br />
 
-      <div className="flex flex-col text-start justify-start container mb-6">
+      <div className="flex flex-col text-start justify-start container mb-6 md:px-8">
         <h3 className="font-bold">Category 1: CC OFFICIAL</h3>
         <p className="text-sm">
           Here Our Designers Created a cover for Cultural Classicists page and
@@ -35,16 +61,20 @@ export default function Home() {
         </p>
       </div>
       <div className="flex flex-wrap md:container mx-auto gap-6 justify-center">
-        <Card1 />
+      {
+        ccOffecial.map(socialMedia => <Card1 key={socialMedia?.name} social={socialMedia} />)
+      }
       </div>
 
-      <div className="flex flex-col text-start justify-start container mb-6">
+      <div className="flex flex-col text-start justify-start container mb-6 md:px-8">
         <h3 className="font-bold">Category 2: CC OFFICIAL</h3>
         <p className="text-sm">Here our designers created a vibrant and captivating poster for a multicultural event featuring music, art etc</p>
       </div>
 
-      <div className="flex flex-wrap md:container mx-auto gap-6 justify-center">
-        <Card2 />
+      <div className="flex flex-wrap md:container mx-auto gap-6 justify-center md:px-8">
+              {
+        culturalEventChallenge.map(socialMedia => <Card2 key={socialMedia?.name} social={socialMedia} />)
+      }
       </div>
 
       <div className="flex flex-col text-start justify-start container mb-6">
@@ -52,7 +82,11 @@ export default function Home() {
         <p className="text-sm">Here our designers designed a banner for a collaborative Campaign with 'the daily star' on the topic of pohela boishash</p>
       </div>
       <div className="flex flex-wrap md:container mx-auto gap-6 justify-center">
-        <Card3 />
+      {
+        socialMediaCampaign.map(socialMedia => <Card3 key={socialMedia?.name} social={socialMedia} />)
+      }
+      
+      
       </div>
     </main>
   );
