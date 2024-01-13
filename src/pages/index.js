@@ -54,7 +54,7 @@ export default function Home() {
       <br />
 
       <div className="flex flex-col text-start justify-start container mb-6 md:px-8">
-        <h3 className="font-bold">Category 1: CC OFFICIAL</h3>
+        <h3 className="font-bold text-2xl">Category 1: CC OFFICIAL</h3>
         <p className="text-sm">
           Here Our Designers Created a cover for Cultural Classicists page and
           Group
@@ -67,7 +67,7 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col text-start justify-start container mb-6 md:px-8">
-        <h3 className="font-bold">Category 2: CC OFFICIAL</h3>
+        <h3 className="font-bold text-2xl">Category 2: Cultural Event Challenge</h3>
         <p className="text-sm">Here our designers created a vibrant and captivating poster for a multicultural event featuring music, art etc</p>
       </div>
 
@@ -78,7 +78,7 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col text-start justify-start container mb-6">
-        <h3 className="font-bold">Category 3: CC OFFICIAL</h3>
+        <h3 className="font-bold text-2xl">Category 3: Social Media Campaign Challenge</h3>
         <p className="text-sm">Here our designers designed a banner for a collaborative Campaign with 'the daily star' on the topic of pohela boishash</p>
       </div>
       <div className="flex flex-wrap md:container mx-auto gap-6 justify-center">
