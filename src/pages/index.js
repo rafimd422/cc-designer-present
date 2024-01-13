@@ -4,33 +4,46 @@ import Image from "next/image";
 import Logo from "@/Assets/CC-golden.png";
 import Card2 from "@/Components/Card2";
 import Card3 from "@/Components/Card3";
+import fahimCOVERCC from "@/Assets/fahimCOVERCC.jpg"
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
 
 
   const ccOffecial = [{
-    name:'MD Mushfiqur Rahman',
+    name:'Fahim Ahmed',
     authorImg:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8qpiVrthJOtOckTNcSG9-MCfchJDe4CKfd06QcjEZuZAONND0',
-    design:'https://pyxis.nymag.com/v1/imgs/654/1f1/08de774c11d89cb3f4ecf600a33e9c8283-24-keanu-reeves.rsquare.w400.jpg',
-    title:'MultiCultural Heritage Hunt Event Poster',
-    theme:'Simple and Clean with the combination of Yellow and Green and Bangladesh`s cultural Colours for background'
-    }]
+    design:fahimCOVERCC,
+    title:"CC's Old Activities to Present Activities showcase",
+    theme:''
+    },{
+      name:'Omar Fahmid Khan',
+      authorImg:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8qpiVrthJOtOckTNcSG9-MCfchJDe4CKfd06QcjEZuZAONND0',
+      design:"https://i.ibb.co/mzfMSKw/20240112-210506-0001.jpg",
+      title:"",
+      theme:'No Title and theme is Provided'
+      }]
 
   const culturalEventChallenge = [{
-    name:'MD Mushfiqur Rahman',
+    name:'Fahim Ahmed',
     authorImg:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8qpiVrthJOtOckTNcSG9-MCfchJDe4CKfd06QcjEZuZAONND0',
-    design:'https://pyxis.nymag.com/v1/imgs/654/1f1/08de774c11d89cb3f4ecf600a33e9c8283-24-keanu-reeves.rsquare.w400.jpg',
+    design:'https://i.ibb.co/nQVTRtL/CC-POSTER-MULTICULTURAL-1.jpg',
     title:'MultiCultural Heritage Hunt Event Poster',
     theme:'Simple and Clean with the combination of Yellow and Green and Bangladesh`s cultural Colours for background'
-    }]
+    },{
+      name:'Omar Fahmid Khan',
+      authorImg:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8qpiVrthJOtOckTNcSG9-MCfchJDe4CKfd06QcjEZuZAONND0',
+      design:'https://i.ibb.co/LgjP8Pq/cultural-classi-20240112-210427-0000.jpg',
+      title:'',
+      theme:'No title and theme is provided'
+      }]
 
   const socialMediaCampaign = [{
-    name:'MD Mushfiqur Rahman',
+    name:'Omar Fahmid Khan',
     authorImg:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8qpiVrthJOtOckTNcSG9-MCfchJDe4CKfd06QcjEZuZAONND0',
-    design:'https://pyxis.nymag.com/v1/imgs/654/1f1/08de774c11d89cb3f4ecf600a33e9c8283-24-keanu-reeves.rsquare.w400.jpg',
-    title:'MultiCultural Heritage Hunt Event Poster',
-    theme:'Simple and Clean with the combination of Yellow and Green and Bangladesh`s cultural Colours for background'
+    design:'https://i.ibb.co/WpBrBSW/20240112-210506-0000.jpg" alt="20240112-210506-0000',
+    title:'',
+    theme:'No title and theme is provided'
     }]
 
   return (
