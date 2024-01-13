@@ -1,7 +1,9 @@
-import Card from "@/Components/Card";
+import Card1 from "@/Components/Card1";
 import { Inter } from "next/font/google";
 import Image from "next/image";
 import Logo from "@/Assets/CC-golden.png";
+import Card2 from "@/Components/Card2";
+import Card3 from "@/Components/Card3";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -33,7 +35,7 @@ export default function Home() {
         </p>
       </div>
       <div className="flex flex-wrap md:container mx-auto gap-6 justify-center">
-        <Card />
+        <Card1 />
       </div>
 
       <div className="flex flex-col text-start justify-start container mb-6">
@@ -42,7 +44,7 @@ export default function Home() {
       </div>
 
       <div className="flex flex-wrap md:container mx-auto gap-6 justify-center">
-        <Card />
+        <Card2 />
       </div>
 
       <div className="flex flex-col text-start justify-start container mb-6">
@@ -50,7 +52,7 @@ export default function Home() {
         <p className="text-sm">Here our designers designed a banner for a collaborative Campaign with 'the daily star' on the topic of pohela boishash</p>
       </div>
       <div className="flex flex-wrap md:container mx-auto gap-6 justify-center">
-        <Card />
+        <Card3 />
       </div>
     </main>
   );
