@@ -12,27 +12,33 @@ export default function Home() {
 
   const ccOffecial = [{
     name:'Fahim Ahmed',
-    authorImg:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8qpiVrthJOtOckTNcSG9-MCfchJDe4CKfd06QcjEZuZAONND0',
+    authorImg:'https://i.ibb.co/JsCkgJQ/399405602-1476492643145139-5022415993902421846-n.jpg',
     design:fahimCOVERCC,
     title:"CC's Old Activities to Present Activities showcase",
     theme:''
     },{
       name:'Omar Fahmid Khan',
-      authorImg:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8qpiVrthJOtOckTNcSG9-MCfchJDe4CKfd06QcjEZuZAONND0',
+      authorImg:'https://i.ibb.co/qyBn1L4/409629996-1295923168469413-6260810901574003843-n.jpg',
       design:"https://i.ibb.co/mzfMSKw/20240112-210506-0001.jpg",
       title:"",
       theme:'No Title and theme is Provided'
-      }]
+      },{
+        name:'Jayed Iqbal',
+        authorImg:'https://i.ibb.co/10spY3t/404790164-387016697089188-8115947067666486852-n.jpg',
+        design:"https://i.ibb.co/GMN4BtS/Cultural-Classicists-banner.png",
+        title:"CC group Banner",
+        theme:''
+        }]
 
   const culturalEventChallenge = [{
     name:'Fahim Ahmed',
-    authorImg:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8qpiVrthJOtOckTNcSG9-MCfchJDe4CKfd06QcjEZuZAONND0',
+    authorImg:'https://i.ibb.co/JsCkgJQ/399405602-1476492643145139-5022415993902421846-n.jpg',
     design:'https://i.ibb.co/nQVTRtL/CC-POSTER-MULTICULTURAL-1.jpg',
     title:'MultiCultural Heritage Hunt Event Poster',
     theme:'Simple and Clean with the combination of Yellow and Green and Bangladesh`s cultural Colours for background'
     },{
       name:'Omar Fahmid Khan',
-      authorImg:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8qpiVrthJOtOckTNcSG9-MCfchJDe4CKfd06QcjEZuZAONND0',
+      authorImg:'https://i.ibb.co/qyBn1L4/409629996-1295923168469413-6260810901574003843-n.jpg',
       design:'https://i.ibb.co/LgjP8Pq/cultural-classi-20240112-210427-0000.jpg',
       title:'',
       theme:'No title and theme is provided'
@@ -40,11 +46,17 @@ export default function Home() {
 
   const socialMediaCampaign = [{
     name:'Omar Fahmid Khan',
-    authorImg:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8qpiVrthJOtOckTNcSG9-MCfchJDe4CKfd06QcjEZuZAONND0',
+    authorImg:'https://i.ibb.co/qyBn1L4/409629996-1295923168469413-6260810901574003843-n.jpg',
     design:'https://i.ibb.co/WpBrBSW/20240112-210506-0000.jpg" alt="20240112-210506-0000',
     title:'',
     theme:'No title and theme is provided'
-    }]
+    },{
+      name:'Jayed Iqbal',
+      authorImg:'https://i.ibb.co/10spY3t/404790164-387016697089188-8115947067666486852-n.jpg',
+      design:"https://i.ibb.co/YWm68YH/Campaign-Banner-01-01-01-01.jpg",
+      title:"CC x The Daily Star Campaign Banner",
+      theme:''
+      }]
 
   return (
     <main

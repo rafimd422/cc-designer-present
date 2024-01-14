@@ -31,13 +31,14 @@ const Card2 = ({ social }) => {
           width={100}
           height={100}
           alt="The Art By Designer"
-          className="w-full mb-4 h-60 sm:h-96 object-contain cursor-pointer"
+          className="w-full h-full object-cover"
+          unoptimized
           onClick={() => setModalIsOpen(true)}
         />
-        <h2 className="mb-1 text-xl font-semibold">{title}</h2>
-        <p className="text-sm text-gray-400">{theme}</p>
-      </div>
 
+      </div>
+      <h2 className="mb-1 text-xl font-semibold">{title}</h2>
+        <p className="text-sm text-gray-400">{theme}</p>
       {/* Modal */}
       <Modal
   isOpen={modalIsOpen}
@@ -45,11 +46,6 @@ const Card2 = ({ social }) => {
   contentLabel="Full View"
   className={'h-full'}
 >
-  <div className="flex justify-end">
-    <button className="text-black font-bold mb-2" onClick={() => setModalIsOpen(false)}>
-      Close
-    </button>
-  </div>
   <div className="flex justify-center items-center h-full w-full">
     <div className="flex flex-col items-center"> {/* Centering container */}
     <button className="ms-auto py-2 text-black font-bold mt-2" onClick={() => setModalIsOpen(false)}>
