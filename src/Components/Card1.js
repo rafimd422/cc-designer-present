@@ -17,9 +17,9 @@ const Card1 = ({ social }) => {
           className="object-cover w-12 h-12 rounded-full shadow bg-gray-500"
         />
         <div className="flex flex-col space-y-1">
-          <a rel="noopener noreferrer" href="#" className="text-sm font-semibold">
-            {name}
-          </a>
+           <p>
+           {name}
+           </p>
           <span className="text-xs text-gray-400">
             Graphics Designer || Organiser || Cultural Clasistists
           </span>
