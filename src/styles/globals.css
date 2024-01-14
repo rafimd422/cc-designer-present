@@ -18,12 +18,4 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.primary {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-  letter-spacing: -0.025em;
-  font-weight: 700;
-  color: rgb(157,116,7);
-color: linear-gradient(90deg, rgba(157,116,7) 0%, rgba(254,231,10,1) 100%, rgb(55, 41, 6) 100%);
-}
 

@@ -4,7 +4,6 @@ import Image from "next/image";
 import Logo from "@/Assets/CC-golden.png";
 import Card2 from "@/Components/Card2";
 import Card3 from "@/Components/Card3";
-import fahimCOVERCC from "@/Assets/fahimCOVERCC.jpg"
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -13,7 +12,7 @@ export default function Home() {
   const ccOffecial = [{
     name:'Fahim Ahmed',
     authorImg:'https://i.ibb.co/JsCkgJQ/399405602-1476492643145139-5022415993902421846-n.jpg',
-    design:fahimCOVERCC,
+    design:'https://i.ibb.co/3zM4px8/FB-COVER-CC.jpg',
     title:"CC's Old Activities to Present Activities showcase",
     theme:''
     },{
